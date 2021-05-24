@@ -32,7 +32,7 @@ namespace Obsolete {
     public void getCarInfo() {
       Console.WriteLine($"PetName: {PetName}, Make: {Make}, Color: {Color}");
     }
-    [Obsolete("Забудьте про него наконец!!!", true)]
+    [Obsolete("Забудьте про него! Используйте getCarDetails!", true)]
     public void CarInfo() {
       Console.WriteLine($"My {PetName} is {Color}");
     }
