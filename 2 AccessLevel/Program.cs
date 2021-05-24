@@ -16,6 +16,8 @@ namespace AccessLevel {
       Console.WriteLine(zones.AccessToZoneC(new admin()));  // Access to Zone C for admin is Ok
       Console.WriteLine(zones.AccessToZoneC(new boss()));   // Access to Zone C for boss is Ok
       Console.WriteLine(zones.AccessToZoneC(new user()));   // Access to Zone C for user is Ok
+
+      Console.ReadKey();
     }
 
     abstract class userBase { }
